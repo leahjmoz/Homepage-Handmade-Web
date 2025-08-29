@@ -1,0 +1,29 @@
+body{
+    background:rgb(235, 248, 253);
+    color:chocolate;;
+    font-family:'Baskerville';
+}
+
+p{
+    background:rgba(183, 228, 228, 0.5);
+    color:rgb(42, 106, 127);
+    border:2px solid;
+    padding:10px;
+    margin:5px;
+}
+
+.banner {
+    text-align:center;
+    font-size:150%;
+    border-style:dashed;
+}
+
+a{
+    color:rgb(21, 44, 45);
+    font-style:italic;
+    font-weight:bold;
+}
+
+a:hover{
+    color:blue;
+}
