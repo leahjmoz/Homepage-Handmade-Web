@@ -1,0 +1,35 @@
+body{
+    background-image:url("images/gradient-background.webp");
+    background-color: slategray;
+    padding: 120px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-origin: content-box;
+    color:aliceblue;
+    
+    
+}
+
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+h2{
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+ul{
+    font-size: 15px;
+    font-family: monospace;
+    
+}
+
+p{
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
