@@ -1,0 +1,81 @@
+body {
+    background:#c69e7c;
+    color:#c69e7c;
+}
+
+h1 {
+    font-family:"baskerville";
+    font-weight: 400;
+    font-size: 40px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+h2 {
+    font-family:"baskerville";
+    font-weight: 350;
+    font-size: 28px;
+    text-align: center;
+    padding: 5px;
+}
+
+h3 {
+    font-family:"baskerville";
+    font-weight: 400;
+    font-size: 18px;
+    padding: 8px;
+}
+
+p {
+    font-family: "baskerville";
+    font-weight: 500;
+    font-style: italic;
+    font-size: 16px;
+    padding: 8px;
+}
+
+a{
+    color:#c69e7c;
+}
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.topbox {
+    background:#423325;
+    width: 70%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 15px;
+    border:8px double #c69e7c
+  }
+
+.box2 {
+background:#423325;
+width: 70%;
+margin-top: 30px;
+margin-bottom: 30px;
+margin-left: auto;
+margin-right: auto;
+padding: 15px;
+}
+
+.outlinebox {
+background:#423325;
+width: 90%;
+margin-top: 15px;
+margin-bottom: 15px;
+margin-left: auto;
+margin-right: auto;
+padding: 15px;
+border: 8px double #c69e7c;
+}
+
+
