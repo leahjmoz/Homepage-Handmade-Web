@@ -46,11 +46,22 @@ a{
 }
 
 h4{
+    font-family: "baskerville";
+    font-size: 18px;
+    text-align: center;
     color:#423325
+    
 }
 
 ul{
+    font-family: "baskerville";
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-decoration:underline;
+    text-align: center;
     color:#423325
+
 }
 
 table {
@@ -89,5 +100,9 @@ margin-right: auto;
 padding: 15px;
 border: 4px dashed #c69e7c;
 }
+
+.image-container {
+        text-align: center;
+    }
 
 
