@@ -1,0 +1,114 @@
+body{
+    background: rgb(246, 182, 212);
+}
+
+img{
+    max-width: 100%;
+}
+
+.block{
+    background:rgb(247, 77, 187);
+    margin:10px;
+    padding:5px;
+    
+}
+
+.inline{
+    background:rgb(255, 159, 175);
+    /* for inline elements, margin and padding don't function like they do with block elements (div) */
+    margin:10px;
+    padding:10px;
+
+    /*width and height have no effect on inline elements*/
+    width:100px;
+    height:100px;
+}
+
+.inline-block{
+    background: rgb(243, 91, 137);
+    display:inline-block;
+    margin:10px;
+    padding:10px;
+
+    /* unlike inline, inline-block can be given width and height */
+    width:100px;
+    height:100px;
+}
+
+.content-box{
+    background:rgb(242, 50, 82);
+    padding:40px;
+    border:5px solid white;
+    margin:100px;
+    width:200px;
+    height:200px;
+}
+
+.border-box{
+    background:rgb(242, 50, 82);
+    padding:40px;
+    border:5px solid white;
+    margin:100px;
+    width:200px;
+    height:200px;
+
+    /* border-box includes the padding and border sizes in the total width and height of the element */
+    box-sizing:border-box;
+}
+
+.square{
+    background:rgb(149, 62, 88);
+    width:100px;
+    height:100px;
+    margin:10px;
+}
+
+.relative{
+    background:salmon;
+    /* only choose top or bottom and left or right */
+    position:relative;
+    top:20px;
+    left:20px;
+}
+
+.fixed{
+    background:rgb(255, 217, 242);
+    position:fixed;
+    bottom:0px;
+    left:0px;
+    margin:0px;
+}
+
+.sticky{
+    background:rgb(110, 0, 42);
+    color:white;
+    /* normally use top or bottom unless you plan to have a sideways scroll */
+    position:sticky;
+    top:0;
+}
+
+.absolute{
+    background:rgb(255, 0, 55);
+    position:absolute;
+    top:1400px;
+    right:50px;
+}
+
+
+.smiley{
+    background:yellow;
+    width:200px;
+    height:200px;
+    margin:70px;
+    position:relative; /*can be positioned anything but static*/
+}
+
+.eye{
+    background:black;
+    width:30px;
+    height:30px;
+    /*in order for this element to be positioned relative to its contained, the container(smiley) also needs to ahve a position value*/
+    position:absolute;
+    left:50px;
+    top:50px;
+}

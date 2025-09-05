@@ -1,5 +1,8 @@
 body {
-    background:#c69e7c;
+    background-image:url(images/brownpattern-bg.jpg);
+    background-size: 100%;
+    background-position: center;
+    background-attachment: fixed;
     color:#c69e7c;
 }
 
@@ -27,7 +30,7 @@ h2 {
 h3 {
     font-family:"baskerville";
     font-weight: 400;
-    font-size: 18px;
+    font-size: 22px;
     padding: 8px;
     color:#c69e7c;
 }
@@ -36,7 +39,7 @@ p {
     font-family: "baskerville";
     font-weight: 500;
     font-style: italic;
-    font-size: 16px;
+    font-size: 18px;
     padding: 8px;
     color:#c69e7c;
 }
@@ -47,7 +50,9 @@ a{
 
 h4{
     font-family: "baskerville";
-    font-size: 18px;
+    font-size: 26px;
+    margin: 0px;
+    padding: 10px;
     text-align: center;
     color:#423325
     
@@ -56,17 +61,14 @@ h4{
 ul{
     font-family: "baskerville";
     list-style-type: none;
+    font-size: 20px;
     margin: 0;
-    padding: 0;
+    padding: 10px;
     text-decoration:underline;
     text-align: center;
+    line-height: 30px;
     color:#423325
 
-}
-
-table {
-    margin-left: auto;
-    margin-right: auto;
 }
 
 .topbox {
@@ -80,29 +82,43 @@ table {
     border:8px double #c69e7c
   }
 
-.box2 {
-background:#423325;
-width: 70%;
-margin-top: 30px;
-margin-bottom: 30px;
-margin-left: auto;
-margin-right: auto;
-padding: 15px;
+.loveletterbox {
+    background:#423325;
+    width: 70%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 15px;
+    border: 4px dashed #c69e7c;
 }
 
-.outlinebox {
-background:#423325;
-width: 90%;
-margin-top: 15px;
-margin-bottom: 15px;
-margin-left: auto;
-margin-right: auto;
-padding: 15px;
-border: 4px dashed #c69e7c;
+.ingredientsbox{
+    background:white;
+    width: 300px;
+    margin-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 15px;
+    border: 4px dashed #c69e7c;
 }
 
-.image-container {
+.cookie-container {
         text-align: center;
     }
 
+.nutfacts-container{
+    background:rgb(255, 0, 0);
+    width:400px;
+    height:800px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+#facts{
+    width: 400px;
+    height: 800px;
+    object-fit: cover;
+}
 

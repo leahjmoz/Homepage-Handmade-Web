@@ -1,0 +1,76 @@
+body{
+    background-image:url(../passion/images/cookie_png.png) ;
+    background-size: 100%;
+    background-repeat: 5;
+    background-position: center;
+    background-origin: content-box;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:#19f309;
+}
+
+h1{
+    margin-top: 0%;
+    font-size: 280px;
+    line-height:220px;
+    text-align: right;
+}
+
+h2{
+    margin-top: 0%;
+    text-align: center;
+    font-size:160px;
+    line-height:140px;
+    color:red;
+}
+
+h3{
+    font-size: 270px;
+    line-height:80%;
+    margin-top: 0%;
+}
+
+p{
+    font-size: 50px;
+    text-align: center;
+    padding-top: 0px;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-weight: 900;
+}
+
+a{
+    color:#19f309;
+    font-style: italic;
+}
+
+.outlinebox{
+    margin-left: 400px;
+    margin-right: 400px;
+    fill-opacity: 20%;
+    border:8px double #ff0000
+    
+}
+
+.image-container {
+        text-align:center;
+    }
+
+
+h4{
+    color:#ff0000;
+    text-align: center;
+    font-size: 100px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+ul{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 200px;
+    text-wrap: break-word;
+    line-height:140px;
+}
+
+.img{
+    text-align:center;
+}

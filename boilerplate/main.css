@@ -1,3 +1,7 @@
+*{
+    box-sizing:borderbox;
+}
+
 img{
     max-width: 100%;
 }
