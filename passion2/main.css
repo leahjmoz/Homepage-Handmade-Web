@@ -1,5 +1,6 @@
 body{
     background-image:url(../passion/images/cookie_png.png) ;
+    background-color: #32281d;
     background-size: 100%;
     background-repeat: 5;
     background-position: center;
@@ -53,6 +54,7 @@ a{
 
 .image-container {
         text-align:center;
+        padding: 30px;
     }
 
 
