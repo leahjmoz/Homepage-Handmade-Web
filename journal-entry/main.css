@@ -1,11 +1,13 @@
 body{
     background-image:url("images/gradient-background.webp");
     background-color: slategray;
-    padding: 120px;
-    background-size: cover;
+    padding-left: 120px;
+    padding-right:120px;
+    padding-top:50px;
+    background-size: 100%; 
     background-repeat: no-repeat;
     background-position: center;
-    background-origin: content-box;
+    background-attachment: fixed;
     color:aliceblue;
     
     
