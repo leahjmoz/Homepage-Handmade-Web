@@ -21,7 +21,7 @@ body{
 
 .left{
     background:rgb(134, 76, 76);
-    width:25%;
+    width:10%;
     display:flex;
     flex-direction:column;
     justify-content:space-between;
@@ -29,17 +29,17 @@ body{
     /* padding:10px; */
 }
 
-.left-thick{
-    background:#ff8181;
-    height:65%;
+.block{
+    background:#ecd3d3;
+    height:58%;
     display:flex;
     justify-content:center;
     align-items:center;
 }
 
-.left-thin{
-    background:#ff8181;
-    height:35%;
+.overblock{
+    background:#f2fafc;
+    height:42%;
     display:flex;
     justify-content:center;
     align-items:center;
@@ -47,7 +47,7 @@ body{
 
 .right{
     background:#fbc5ae;
-    width:75%;
+    width:90%;
     display:flex;
     flex-direction:column;
     /* gap:10px; */
@@ -55,7 +55,7 @@ body{
 }
 
 .top{
-    background:#cbf3ff;
+    background:#f2fafc;
     height:50%;
     width:100%;
     display:flex;
@@ -80,7 +80,7 @@ body{
 }
 
 .swimmer{
-    background:#47e608;
+    background:rgb(201, 254, 255);
     width:100%;
     height:35%;
     display:flex;
@@ -90,7 +90,7 @@ body{
 }
 
 .under-swimmer{
-    background:#b0bdff;
+    background:rgb(201, 254, 255);
     width:100%;
     height:65%;
     display:flex;
@@ -99,10 +99,15 @@ body{
     align-items:center;
 }
 
-.right-thin{
-    background:#c7ffb0;
+.water{
+    background:rgb(201, 254, 255);
     width:40%;
     display:flex;
     justify-content:center;
     align-items:center;
+}
+
+img{
+    object-fit: cover;
+    width: 100%;
 }
