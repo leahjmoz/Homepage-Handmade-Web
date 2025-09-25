@@ -57,7 +57,7 @@ img{
 .mover1{
     background:rgb(97, 97, 181);
     width:6%;
-    height:6%;
+    height:5.5%;
     /* border-radius:30%; */
     position:absolute;
     top:0;
@@ -102,10 +102,10 @@ img{
 .mover2{
     background:rgb(97, 97, 181);
     width:6%;
-    height:6%;
+    height:5.5%;
     /* border-radius:30%; */
     position:absolute;
-    top:7%;
+    top:6.79%;
     left:0;
     animation:move;
     animation-duration: 5.2s;
@@ -117,10 +117,10 @@ img{
 .mover3{
     background:rgb(97, 97, 181);
     width:6%;
-    height:6%;
+    height:5.5%;
     /* border-radius:30%; */
     position:absolute;
-    top:14%;
+    top:13.58%;
     left:0;
     animation:move;
     animation-duration: 5.4s;
@@ -132,10 +132,10 @@ img{
 .mover4{
     background:rgb(97, 97, 181);
     width:6%;
-    height:6%;
+    height:5.5%;
     /* border-radius:30%; */
     position:absolute;
-    top:21%;
+    top:20.37%;
     left:0;
     animation:move;
     animation-duration: 5.6s;
@@ -147,10 +147,10 @@ img{
 .mover5{
     background:rgb(97, 97, 181);
     width:6%;
-    height:6%;
+    height:5.5%;
     /* border-radius:30%; */
     position:absolute;
-    top:28%;
+    top:27.16%;
     left:0;
     animation:move;
     animation-duration: 5.8s;
@@ -162,10 +162,10 @@ img{
 .mover6{
     background:rgb(97, 97, 181);
     width:6%;
-    height:6%;
+    height:5.5%;
     /* border-radius:30%; */
     position:absolute;
-    top:35%;
+    top:33.95%;
     left:0;
     animation:move;
     animation-duration: 6s;
@@ -177,10 +177,10 @@ img{
 .mover7{
     background:rgb(97, 97, 181);
     width:6%;
-    height:6%;
+    height:5.5%;
     /* border-radius:30%; */
     position:absolute;
-    top:42%;
+    top:40.74%;
     left:0;
     animation:move;
     animation-duration: 6.2s;
@@ -192,10 +192,10 @@ img{
 .mover8{
     background:rgb(97, 97, 181);
     width:6%;
-    height:6%;
+    height:5.5%;
     /* border-radius:30%; */
     position:absolute;
-    top:49%;
+    top:47.53%;
     left:0;
     animation:move;
     animation-duration: 6.4s;
@@ -207,10 +207,10 @@ img{
 .mover9{
     background:rgb(97, 97, 181);
     width:6%;
-    height:6%;
+    height:5.5%;
     /* border-radius:30%; */
     position:absolute;
-    top:56%;
+    top:54.32%;
     left:0;
     animation:move;
     animation-duration: 6.6s;
@@ -222,10 +222,10 @@ img{
 .mover10{
     background:rgb(97, 97, 181);
     width:6%;
-    height:6%;
+    height:5.5%;
     /* border-radius:30%; */
     position:absolute;
-    top:63%;
+    top:61.11%;
     left:0;
     animation:move;
     animation-duration: 6.8s;
@@ -237,10 +237,10 @@ img{
 .mover11{
     background:rgb(97, 97, 181);
     width:6%;
-    height:6%;
+    height:5.5%;
     /* border-radius:30%; */
     position:absolute;
-    top:70%;
+    top:67.9%;
     left:0;
     animation:move;
     animation-duration: 7s;
@@ -252,10 +252,10 @@ img{
 .mover12{
     background:rgb(97, 97, 181);
     width:6%;
-    height:6%;
+    height:5.5%;
     /* border-radius:30%; */
     position:absolute;
-    top:77%;
+    top:74.69%;
     left:0;
     animation:move;
     animation-duration: 7.2s;
@@ -267,10 +267,10 @@ img{
 .mover13{
     background:rgb(97, 97, 181);
     width:6%;
-    height:6%;
+    height:5.5%;
     /* border-radius:30%; */
     position:absolute;
-    top:84%;
+    top:81.48%;
     left:0;
     animation:move;
     animation-duration: 7.4s;
@@ -282,10 +282,10 @@ img{
 .mover14{
     background:rgb(97, 97, 181);
     width:6%;
-    height:6%;
+    height:5.5%;
     /* border-radius:30%; */
     position:absolute;
-    top:91%;
+    top:88.27%;
     left:0;
     animation:move;
     animation-duration: 7.6s;
@@ -297,10 +297,10 @@ img{
 .mover15{
     background:rgb(97, 97, 181);
     width:6%;
-    height:6%;
+    height:5.5%;
     /* border-radius:30%; */
     position:absolute;
-    top:98%;
+    top:95%;
     left:0;
     animation:move;
     animation-duration: 7.8s;
