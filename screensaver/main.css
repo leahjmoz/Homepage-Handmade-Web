@@ -1,0 +1,310 @@
+*{
+    box-sizing:border-box;
+}
+
+body{
+    margin:0;
+}
+
+img{
+    max-width: 100%;
+}
+
+
+.container{
+    background-color:rgb(10, 2, 52);
+    height:100vh;
+    animation:bg;
+    animation-duration: 35s;
+    animation-iteration-count:infinite;
+    animation-timing-function: ease-in-out, ease-in-out;
+    display:flex;
+    flex-direction:column;
+    justify-content:space-evenly;
+    align-items:center;
+    
+    
+    position:relative; /*this helps the mover stay positioned at the bottom corner of the container since the mover is absolutely positioned */
+    overflow:hidden; /*allows the mover to actually go off page instead of creating scroll bars*/
+}
+
+@keyframes bg{
+    0%{
+        background:rgb(10, 2, 52);
+    }
+
+    15%{
+        background:rgb(97, 97, 181);
+    }
+
+    40%{
+        background:#4F646F;
+    }
+
+    65%{
+        background:#BA2C73;
+    }
+
+    90%{
+        background:#ABC4AB;
+    }
+
+    100%{
+        background:rgb(10, 2, 52);
+    }
+}
+
+.mover1{
+    background:rgb(97, 97, 181);
+    width:6%;
+    height:6%;
+    /* border-radius:30%; */
+    position:absolute;
+    top:0;
+    left:0;
+    animation:move;
+    animation-duration: 5s;
+    animation-timing-function:linear;
+    animation-iteration-count:infinite;
+    animation-direction:alternate;
+}
+
+@keyframes move{
+    0%{
+        left:0px;
+        background:rgb(97, 97, 181);
+    }
+
+    25%{
+        background:#4F646F;
+        width:6%;
+    }
+
+    50%{
+        background:#BA2C73;
+        width:6%;
+    }
+
+    75%{
+        background:#F1FFFA;
+        width:6%;
+    }
+
+    100%{
+        left:95vw;
+        background:#ABC4AB;
+        width:6%;
+    }
+}
+
+
+
+.mover2{
+    background:rgb(97, 97, 181);
+    width:6%;
+    height:6%;
+    /* border-radius:30%; */
+    position:absolute;
+    top:7%;
+    left:0;
+    animation:move;
+    animation-duration: 5.2s;
+    animation-timing-function:linear;
+    animation-iteration-count:infinite;
+    animation-direction:alternate;
+}
+
+.mover3{
+    background:rgb(97, 97, 181);
+    width:6%;
+    height:6%;
+    /* border-radius:30%; */
+    position:absolute;
+    top:14%;
+    left:0;
+    animation:move;
+    animation-duration: 5.4s;
+    animation-timing-function:linear;
+    animation-iteration-count:infinite;
+    animation-direction:alternate;
+}
+
+.mover4{
+    background:rgb(97, 97, 181);
+    width:6%;
+    height:6%;
+    /* border-radius:30%; */
+    position:absolute;
+    top:21%;
+    left:0;
+    animation:move;
+    animation-duration: 5.6s;
+    animation-timing-function:linear;
+    animation-iteration-count:infinite;
+    animation-direction:alternate;
+}
+
+.mover5{
+    background:rgb(97, 97, 181);
+    width:6%;
+    height:6%;
+    /* border-radius:30%; */
+    position:absolute;
+    top:28%;
+    left:0;
+    animation:move;
+    animation-duration: 5.8s;
+    animation-timing-function:linear;
+    animation-iteration-count:infinite;
+    animation-direction:alternate;
+}
+
+.mover6{
+    background:rgb(97, 97, 181);
+    width:6%;
+    height:6%;
+    /* border-radius:30%; */
+    position:absolute;
+    top:35%;
+    left:0;
+    animation:move;
+    animation-duration: 6s;
+    animation-timing-function:linear;
+    animation-iteration-count:infinite;
+    animation-direction:alternate;
+}
+
+.mover7{
+    background:rgb(97, 97, 181);
+    width:6%;
+    height:6%;
+    /* border-radius:30%; */
+    position:absolute;
+    top:42%;
+    left:0;
+    animation:move;
+    animation-duration: 6.2s;
+    animation-timing-function:linear;
+    animation-iteration-count:infinite;
+    animation-direction:alternate;
+}
+
+.mover8{
+    background:rgb(97, 97, 181);
+    width:6%;
+    height:6%;
+    /* border-radius:30%; */
+    position:absolute;
+    top:49%;
+    left:0;
+    animation:move;
+    animation-duration: 6.4s;
+    animation-timing-function:linear;
+    animation-iteration-count:infinite;
+    animation-direction:alternate;
+}
+
+.mover9{
+    background:rgb(97, 97, 181);
+    width:6%;
+    height:6%;
+    /* border-radius:30%; */
+    position:absolute;
+    top:56%;
+    left:0;
+    animation:move;
+    animation-duration: 6.6s;
+    animation-timing-function:linear;
+    animation-iteration-count:infinite;
+    animation-direction:alternate;
+}
+
+.mover10{
+    background:rgb(97, 97, 181);
+    width:6%;
+    height:6%;
+    /* border-radius:30%; */
+    position:absolute;
+    top:63%;
+    left:0;
+    animation:move;
+    animation-duration: 6.8s;
+    animation-timing-function:linear;
+    animation-iteration-count:infinite;
+    animation-direction:alternate;
+}
+
+.mover11{
+    background:rgb(97, 97, 181);
+    width:6%;
+    height:6%;
+    /* border-radius:30%; */
+    position:absolute;
+    top:70%;
+    left:0;
+    animation:move;
+    animation-duration: 7s;
+    animation-timing-function:linear;
+    animation-iteration-count:infinite;
+    animation-direction:alternate;
+}
+
+.mover12{
+    background:rgb(97, 97, 181);
+    width:6%;
+    height:6%;
+    /* border-radius:30%; */
+    position:absolute;
+    top:77%;
+    left:0;
+    animation:move;
+    animation-duration: 7.2s;
+    animation-timing-function:linear;
+    animation-iteration-count:infinite;
+    animation-direction:alternate;
+}
+
+.mover13{
+    background:rgb(97, 97, 181);
+    width:6%;
+    height:6%;
+    /* border-radius:30%; */
+    position:absolute;
+    top:84%;
+    left:0;
+    animation:move;
+    animation-duration: 7.4s;
+    animation-timing-function:linear;
+    animation-iteration-count:infinite;
+    animation-direction:alternate;
+}
+
+.mover14{
+    background:rgb(97, 97, 181);
+    width:6%;
+    height:6%;
+    /* border-radius:30%; */
+    position:absolute;
+    top:91%;
+    left:0;
+    animation:move;
+    animation-duration: 7.6s;
+    animation-timing-function:linear;
+    animation-iteration-count:infinite;
+    animation-direction:alternate;
+}
+
+.mover15{
+    background:rgb(97, 97, 181);
+    width:6%;
+    height:6%;
+    /* border-radius:30%; */
+    position:absolute;
+    top:98%;
+    left:0;
+    animation:move;
+    animation-duration: 7.8s;
+    animation-timing-function:linear;
+    animation-iteration-count:infinite;
+    animation-direction:alternate;
+}
