@@ -4,6 +4,9 @@
 
 .site-container{
   width:665px;
+  margin-left: auto;
+  margin-right: auto;
+  display:block;
 }
 
 body {
@@ -170,7 +173,7 @@ h1 {
 
 .img1 img{
   position: absolute;
-  width:12%;
+  width:150px;
   top:1560px;
   left:84%;
   display:none; 
@@ -178,7 +181,7 @@ h1 {
 
 .img2 img{
   position: absolute;
-  width:8%;
+  width:100px;
   top:1660px;
   left:78%;
   display:none;
@@ -186,7 +189,7 @@ h1 {
 
 .img3 img{
   position: absolute;
-  width:11%;
+  width:140px;
   top:1770px;
   left:86%;
   display:none;
