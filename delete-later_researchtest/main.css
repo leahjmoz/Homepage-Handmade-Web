@@ -1,0 +1,206 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin-top: 90px;
+  margin-left: 300px;
+  margin-right: 300px;
+  padding-bottom: 80px;
+}
+
+@font-face {
+  font-family: "Formula1-Regular";
+  src: url("Formula1-Regular.otf");
+}
+
+h2 {
+  font-family: "Formula1-Regular", sans-serif;
+  font-size: 16pt;
+  margin-bottom: 1.2em;
+  text-align:center;
+}
+
+p, h1 {
+  font-family: "titillium-web", sans-serif;
+  font-weight: 400;
+  font-size: 14pt;
+  font-style: normal;
+  line-height: 1.6;
+  text-align: left;
+  white-space: normal;
+  display: block;
+}
+
+@font-face {
+  font-family: "Formula1-Regular";
+  src: url("Formula1-Regular.otf");
+}
+
+h1 {
+  font-family: "Formula1-Regular", sans-serif;
+  font-size: 12pt;
+  margin-bottom: 1.2em;
+}
+
+/* Single blinking cursor */
+#cursor {
+  display: inline-block;
+  width: 2px;
+  height: 1em;
+  background-color: black;
+  vertical-align: bottom;
+  animation: blink 0.8s steps(1) infinite;
+  position: relative;
+  transform: translateY(-0.15em); /* lift cursor slightly */
+}
+
+@keyframes blink {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0; }
+}
+
+/* Strike animation */
+.strike {
+  display: inline-block;
+  position: relative;
+}
+
+.strike::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  height: 2px;
+  width: 0;
+  background: black;
+  transition: width 0.5s ease-out;
+}
+
+.strike.struck::after {
+  width: 100%;
+}
+
+.skip-btn {
+  font-size: 13pt;
+  border: none;
+  background: none;
+  cursor: pointer;
+  margin-left: 10px;
+  color: black;
+  opacity: 0;              /* hidden at start */
+  pointer-events: none;    /* not clickable while hidden */
+  transition: opacity 0.6s ease, transform 0.2s;
+}
+
+.skip-btn.visible {
+  opacity: 1;              /* fade in */
+  pointer-events: auto;    /* become clickable */
+}
+
+.skip-btn:hover {
+  transform: scale(1.2);
+}
+
+.citations-button {
+  background: url('essay-images/7-spyker_button.png') no-repeat center center;
+  background-size: cover;
+  width: 160px;
+  height: 60px;
+  border: none;
+  cursor: pointer;
+  position: fixed;
+  top:60px;
+  left:2%;
+}
+
+.citations{
+  background: rgb(241, 241, 241);
+  color:black;
+  position:fixed;
+  top:0;
+  right:-22%;
+  padding-top:0px;
+  padding-left:5px;
+  width:22%;
+  height:1000px;
+  text-align:left;
+  font-size:85%;
+  line-height: 1.35;
+  text-decoration: none;
+  
+  transition:all .3s;
+  z-index:100;
+}
+
+.citations a{
+  color:black;
+}
+
+.citations ul{
+  padding-left:3px;
+  list-style:none;
+}
+
+.citations p{
+  font-size:110%;
+  padding-top:1px;
+}
+
+.active1 {
+    right:0px;
+}
+
+.images-button {
+  background: url('essay-images/8-forceindia-button.png') no-repeat center center;
+  background-size: cover;
+  width: 160px;
+  height: 47px;
+  border: none;
+  cursor: pointer;
+  position: fixed;
+  top:200px;
+  left:2%;
+}
+
+.img1 img{
+  position: absolute;
+  width:12%;
+  top:1560px;
+  left:84%;
+  display:none; 
+}
+
+.img2 img{
+  position: absolute;
+  width:8%;
+  top:1660px;
+  left:78%;
+  display:none;
+}
+
+.img3 img{
+  position: absolute;
+  width:11%;
+  top:1770px;
+  left:86%;
+  display:none;
+}
+
+.active2 {
+  display:block !important;
+}
+
+
+.colophon-button {
+  background: url('essay-images/10-alfaromeo_button.png') no-repeat center center;
+  background-size: cover;
+  width: 175px;
+  height: 40px;
+  border: none;
+  cursor: pointer;
+  position: fixed;
+  top:330px;
+  left:2%;
+}
